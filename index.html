@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+	<!--
+	name=jwilso03
+	!-->
+	<title>Homepage</title>
+	<script type ="text/javascript" src ="javascript/main.js"></script>
+	<link id="pagestyle" rel="stylesheet" href="css/lightmode.css" type="text/css">
+</head>
+<body>
+	<a id="skip" href="#main">Skip to Main Content</a>
+	<!--TODO 
+		-ADD STYLE SELECTOR
+		-Refine css animations
+		-vignette?
+		-website themes?
+		-debug debug debug...
+	-->
+	<!--SIDEBAR-->
+
+	<div class="sidenav">
+		<a href = "index.html">Home</a>
+		<a href = "interests.html">Interests</a>
+		<a href = "resume.html">About</a>
+		<a onclick="myFunction()" class="dropbtn">Projects &or;</a>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="./cars/cars.html">cars</a>
+				<a href="./toys/toys.html">toys</a>
+				<a href="./login/login.php">login</a>
+			</div>
+
+<!--STYLE SELECTOR-->
+	
+		<a onclick="myFunction()" class="dropbtn">Style Options &or;</a>
+			<div id="myDropdown" class="dropdown-content">
+				<a onclick="swapStyleSheet('css/lightmode.css')" id="lightmode">Default Theme</a>
+				<a onclick="swapStyleSheet('css/darkmode.css')" id="darkmode">Dark Theme</a>
+				<a onclick="swapStyleSheet('css/funkymode.css')" id="funky">Funky Theme</a>
+			</div>
+
+<!--SIDEBAR CONTENT-->
+
+			<div class="sidecontent">
+			</div>
+
+	</div>
+<!--PAGE CONTENT-->
+		<div class="h1" id="main">
+			<div class="pagehead">
+				CS2033 Final Project
+			</div>
+			<br>
+			<div id="content">
+				Welcome! This webpage is an assignment completed Fall of 2019 for Web Systems!
+			</div>
+		<!--
+			<div class="flex-homepage">
+				<div href = "interests.html">Interests
+				</div>
+				<div href = "resume.html">About
+				</div>
+			</div>
+		-->
+		</div>
+
+</body>
+</html>

@@ -1,0 +1,252 @@
+
+body{
+	background-color: red;
+	height: 180px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.sidenav{
+	font-size: 20px;
+	height:100%;
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: darkgray;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.sidenav a, .dropdown-btn {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: lightgray;
+	display: block;
+	border: none;
+	background: dimgray;
+	width: 100%;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+	font-size: 20px;
+}
+
+.sidenav a:hover, .dropdown-btn:hover{
+	color: #f1f1f1;
+	display: block;
+}
+.dropdown-container{
+	display: none;
+	background-color: darkgray;
+	padding-left: 8px;
+}
+
+.active{
+	background-color: gray;
+	color: darkgray;
+}
+
+#main{
+	margin-left: 200px;
+	font-size: 25px;
+	font-style: bold;
+}
+#content{
+	font-size: 20px;
+	font-style: none;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+@media screen and (max-height: 450px){
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 20px;}
+}
+
+.dropbtn {
+  background-color: gray;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: gray;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: gray;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd
+}
+
+
+.show {
+	display:block;
+} 
+
+.stylebtn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.sidecontent {
+	text-decoration: bold;
+	text-align: center;
+}
+
+.pagehead{
+	background-color: slategray;
+	position: center;
+	color: lightgray;
+	font-size: 40px;
+	text-align: center;
+	padding-right: 20px;
+	border-radius: 5px 5px 5px 5px;
+	font-family: Arial, sans-serif;
+}
+
+.subhead{
+	position: center;
+	color: gray;
+	font-size: 40px;
+	text-align: center;
+	padding-right: 50px;
+	padding-left: 50px;
+	text-decoration-style: underline;
+	display: inline-block;
+}
+.squirmle{
+	align-content: center;
+}
+
+div.gallery{
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+  border-radius: 5px 5px 5px 5px;
+  display: inline-block;
+}
+
+div.gallery:hover{
+  border: 2px solid #777;
+  border-radius: 5px 5px 5px 5px;
+}
+
+div.gallery img{
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+  height: auto;
+}
+
+div.desc{
+  padding: 15px;
+  text-align: center;
+}
+
+.subcontent{
+	align-content: center;
+	float:center;
+	margin-left:25%;
+	margin-right:25%;
+}
+div.Avatar img{
+	height:200px;
+	width:200px;
+	padding-top: 30px;
+	border-radius: 50%;
+	display: inline-block;
+}
+div.Avatar:hover{
+	border-radius: 10px;
+}
+
+.blockhead{
+	background-color: brown;
+	position: center;
+	color: lightgray;
+	font-size: 40px;
+	text-align: center;
+	padding-right: 20px;
+	border-radius: 5px 5px 5px 5px;
+	font-family: Arial, sans-serif;
+}
+
+.resumeblockleft{
+	background-color: slategray;
+	float: left;
+	width: 25%
+	color: lightgray;
+	font-size: 20px;
+	text-align: left;
+	padding-right: 20px;
+	border-radius: 5px 5px 5px 5px;
+	font-family: Arial, sans-serif;
+}
+
+.flex-resume{
+	background-color: slategray;
+	display: flex;
+	height: 500px;
+	color: lightgray;
+	font-size: 25px;
+	text-align: center;
+	padding-right: 20px;
+	border-radius: 5px 5px 5px 5px;
+	font-family: Arial, sans-serif;
+}
+.resumeh1{
+	font-size: 15px;
+	font-style: bold;
+}
+.sidebar{
+	align-self: left;
+	background-color: tan;
+	display: flex;
+	align-content: center;
+	height: 100%;
+	border-radius: 5px 5px 5px 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 15px;
+	text-align: left;
+}
+.resume-content{
+	align-self: top;
+	display: flex;
+	background-color: green;
+}
+.subcontent{
+	align-self: right;
+	display: flex;
+	background-color: black;
+}

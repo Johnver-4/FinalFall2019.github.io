@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+	<!--
+	name=jwilso03
+	!-->
+	<title>About</title>
+	<script type ="text/javascript" src ="javascript/main.js"></script>
+	<link id="pagestyle" rel="stylesheet" href="css/lightmode.css" type="text/css">
+</head>
+<body>
+	<!--TODO 
+		-ADD STYLE SELECTOR
+		-Refine css animations
+		-vignette?
+		-website themes?
+		-debug debug debug...
+	-->
+<!--SIDEBAR-->
+
+	<div class="sidenav">
+		<a href = "index.html">Home</a>
+		<a href = "interests.html">Interests</a>
+		<a href = "resume.html">About</a>
+		<a onclick="myFunction()" class="dropbtn">Projects &or;</a>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="./cars/cars.html">cars</a>
+				<a href="./toys/toys.html">toys</a>
+				<a href="./login/login.php">login</a>
+			</div>
+
+<!--STYLE SELECTOR-->
+
+		<a onclick="myFunction()" class="dropbtn">Style Options &or;</a>
+			<div id="myDropdown" class="dropdown-content">
+				<a onclick="swapStyleSheet('css/lightmode.css')" id="lightmode">Default Theme</a>
+				<a onclick="swapStyleSheet('css/darkmode.css')" id="darkmode">Dark Theme</a>
+				<a onclick="swapStyleSheet('css/funkymode.css')" id="funky">Funky Theme</a>
+			</div>
+
+<!--SIDEBAR CONTENT-->
+
+			<div class="sidecontent">
+			</div>
+<!--PAGE CONTENT-->
+	</div>
+		<div class="h1" id="main">
+			<div class="resumepage">
+				<div class="contact">
+					<div class="Avatar">
+								<a target="_blank" href="./images/Avatar1.jpg">
+		    						<img src="./images/Avatar1.jpg" alt="John's Face" width="400" height="400">
+		  						</a>
+		  						<div class="rh">
+		  							John Wilson
+		  						</div>
+
+  							</div>
+		  						<div class="rh1">
+		  							Contact Information
+		  						</div>
+		  						<div class="rc">
+		  							<p>(800)-123-4567</p>
+				  					<p>jwilso03@g.uafs.edu</p>
+				  					<p>1234 N Camp St, Fort Smith AR, 72908</p>
+				  					<p></p>
+  								</div>
+  				</div>
+  				<div class="about">
+  					<div class="rh1"> 
+  						Summary of Qualifications
+  					</div>
+  					<div class="rc">
+  						Dedicated and efficient full stack developer with 6+ years experience in application layers, presentation layers, and databases. Certified in both F/E and B/E technologies. Spearheaded successful transition from LAMP stack to MEAN which cut latency by 40% and increased effectiveness of database administrators by 20%. Seeking to further improve HTML5 and CSS3 skills as the future full stack developer at Atmospheric Solutions.
+  					</div>
+				</div>
+					<div class="experience">
+						<div class="rh1">Experience</div>
+						<div>
+							<div class="job">
+								<p>
+									<span>Full Stack Developer</span><br>
+									<span>May 20XX–June 20XX</span><br>
+									<span>General Gaming, NWA</span>
+								</p>
+							</div>
+								<div class="rh2">
+									Key Qualifications & Responsibilities
+								</div>
+									<div class="rc">
+										Developed full-stack web applications which processed, analyzed, and rendered data visually.
+										Liaised with back end developers, front end developers, quality assurance testers, and CTO as needed.
+										Managed time-sensitive updates, including content changes and database upgrades.
+										Planned, wrote, and debugged web applications and software with complete accuracy.
+									</div>
+									<div class="rh2">
+										Key Achievements
+									</div>
+									<div class="rc">
+									   Spearheaded transition from LAMP stack to MEAN stack, reducing latency by 40% and increasing database admin effectiveness by 20%.
+									</div>
+						</div>
+							<div>
+								<div class="job">
+									<p><span>Junior Full Stack Developer</span><br>
+									<span>December 20XX–April 20XX</span><br>
+									<span>Crazy Lazy Apps, Tulsa, OK</span>
+									</p>
+								</div>
+									<div class="rh2">
+										Key Qualifications & Responsibilities
+									</div>
+									<div class="rc">
+									    Maximized applications’ efficiency, data quality, scope, operability, and flexibility.
+									    Used various ideas from distributed computing, large-scale design, real-time data processing, data storage, ML, and AI to solve challenging dataset problems.
+									    Managed, optimized, and updated PHP databases as necessary.
+									    Developed app integration with REST / SOAP and other APIs for Google Maps, social media logins, payment processors, and other services.
+									</div>
+								</div>
+					</div>
+				</div>
+			</div>
+		</div>

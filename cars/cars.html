@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+	<!--
+	name=jwilso03
+	!-->
+	<title>Homepage</title>
+	<script type ="text/javascript" src ="javascript/main.js"></script>
+	<link rel="stylesheet" href="css/lightmode.css" type="text/css">
+</head>
+<body>
+	<!--TODO 
+		-ADD STYLE SELECTOR
+		-Refine css animations
+		-vignette?
+		-website themes?
+		-debug debug debug...
+	-->
+	<div class="sidenav">
+		<a href = "../index.html">Home</a>
+		<a href = "../interests.html">Interests</a>
+		<a href = "../resume.html">About</a>
+		<a onclick="myFunction()" class="dropbtn">Projects &or;</a>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="../cars/cars.html">cars</a>
+				<a href="../toys/toys.html">toys</a>
+				<a href="../login/login.html">login</a>
+			</div>
+		<a onclick="myFunction()" class="dropbtn">Style Options &or;</a>
+			<div id="myDropdown" class="dropdown-content">
+				<a onclick="swapStyleSheet()" id="lightmode">Default Theme</a>
+				<a onclick="swapStyleSheet()" id="darkmode">Dark Theme</a>
+				<a onclick="swapStyleSheet()" id="funky">Funky Theme</a>
+			</div>
+			<div class="sidecontent">
+				</div>
+		</div>
+		<div class="h1" id="main">
+			<div class="pagehead">
+				Cars
+			</div>
+			<br>
+			<div id="content">
+				Heres where the cars go
+			</div>
+		</div>

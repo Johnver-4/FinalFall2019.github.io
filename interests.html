@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+	<!--
+	name=jwilso03
+	!-->
+	<title>Hobbies/Interests</title>
+	<script type ="text/javascript" src ="javascript/main.js"></script>
+	<link id="pagestyle" rel="stylesheet" href="css/lightmode.css" type="text/css">
+</head>
+<body>
+	<!--TODO 
+		-ADD STYLE SELECTOR
+		-Refine css animations
+		-debug debug debug...
+		-Properly Source images for gallery imgs
+	-->
+<!--SIDEBAR-->
+
+	<div class="sidenav">
+		<a href = "index.html">Home</a>
+		<a href = "interests.html">Interests</a>
+		<a href = "resume.html">About</a>
+		<a onclick="myFunction()" class="dropbtn">Projects &or;</a>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="./cars/cars.html">cars</a>
+				<a href="./toys/toys.html">toys</a>
+				<a href="./login/login.php">login</a>
+			</div>
+
+<!--STYLE SELECTOR-->
+
+		<a onclick="myFunction()" class="dropbtn">Style Options &or;</a>
+			<div id="myDropdown" class="dropdown-content">
+				<a onclick="swapStyleSheet('css/lightmode.css')" id="lightmode">Default Theme</a>
+				<a onclick="swapStyleSheet('css/darkmode.css')" id="darkmode">Dark Theme</a>
+				<a onclick="swapStyleSheet('css/funkymode.css')" id="funky">Funky Theme</a>
+			</div>
+
+<!--SIDEBAR CONTENT-->
+
+			<div class="sidecontent">
+			</div>
+	</div>
+<!--PAGE CONTENT-->
+		
+		<div class="h1" id="main">
+			<div class="pagehead">
+				Hobbies/Interests
+			</div>
+			<br>
+			<div id="content">
+				<div class="subhead">
+				DND
+				</div>
+					<div class="subcontent">
+						When time permits I DM a campaign with a group of friends every other weekend. I enjoy painting miniatures and creating terrain for my game, as well as making my players suffer the consequences of their actions. Playing with the idea of picking up a 3D printer, so if anyone has any experience/reccomendations, let me know.
+					</div>
+					<div class="gallery">
+						<a target="_blank" href="img_5terre.jpg">
+    						<img src="./images/Wizard.jpg" alt="Painted Wizard Miniature" width="600" height="400">
+  						</a>
+  							<div class="desc">
+  							Nolzur's Human Wizard Mini
+  							</div>
+					</div>
+					<div class="gallery">
+						<a target="_blank" href="img_5terre.jpg">
+    						<img src="./images/FleshGolem.jpg" alt="Painted Flesh Golem Miniature" width="600" height="400">
+  						</a>
+  							<div class="desc">
+  							Nolzur's Flesh Golem Mini
+  							</div>
+					</div>
+				
+				<br><br>
+				<div class="subhead">
+				Video Games
+				</div>
+				<div class="subcontent">
+					I play on PS4 and some lower end PC games. Currently sinking a lot of time into Gundam: Battle Operation 2 on PS4 since it went F2P for its western release.  
+				</div>
+				<br><br>
+				<div class="subhead">
+				Gunpla
+				</div>
+				<div class="subcontent">
+					"Gunpla (ガンプラ Ganpura)" - a portmanteau of "Gundam plastic model", is the common name for plastic model kits depicting the vehicles and characters of the fictional Gundam universe by Bandai." Its plastic models of big mecha whats not to like?
+				</div>
+					<div class="gallery">
+						<a target="_blank" href="img_5terre.jpg">
+    						<img src="./images/GundamHead.jpg" alt="RX-78-2 MG 3.0 LED" width="600" height="400">
+  						</a>
+  							<div class="desc">
+  							Bandai LED Unit in RX-78-2 MG 3.0
+  							</div>
+  					</div>
+  					<div class="gallery">
+						<a target="_blank" href="img_5terre.jpg">
+    						<img src="./images/GundamLed.jpg" alt="RX-78-2 MG 3.0" width="600" height="400">
+  						</a>
+  							<div class="desc">
+  							RX-78-2 MG 3.0
+  							</div>
+  					</div>
+  					<div class="gallery">
+						<a target="_blank" href="img_5terre.jpg">
+    						<img src="./images/BusterGundam.jpg" alt="Buster Gundam" width="600" height="400">
+  						</a>
+  							<div class="desc">
+  							Buster Gundam MG
+  							</div>
+  					</div>
+				<br><br>
+				<div class="subhead">
+				Cooking
+				</div>
+				<div class="subcontent">
+					I consider myself a ameturish cook at best but I do enjoy trying new recipies and cooking dinner. I've been told my beef and potato curry is one of my best dishes.
+				</div>
+				<br><br>
+			</div>
+		</div>
